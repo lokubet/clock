@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\karapuz\source\repos\work_clock\work_clock\main.cpp(64,1): warning C4715: Clock_W::DrawBackground: значение возвращается не при всех путях выполнения
+C:\Users\karapuz\source\repos\work_clock\work_clock\main.cpp(88,1): warning C4715: Clock_W::DrawBackClock: значение возвращается не при всех путях выполнения
+C:\Users\karapuz\source\repos\work_clock\work_clock\main.cpp(154,1): warning C4715: Clock_W::CheckErr: значение возвращается не при всех путях выполнения
+C:\Users\karapuz\source\repos\work_clock\work_clock\main.cpp(102,1): warning C4715: Clock_W::DrawHands: значение возвращается не при всех путях выполнения
+  work_clock.vcxproj -> C:\Users\karapuz\source\repos\work_clock\work_clock\x64\Debug\work_clock.exe
