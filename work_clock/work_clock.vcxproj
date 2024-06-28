@@ -133,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -237,6 +238,7 @@
     <ClInclude Include="dependenciec\include\SDL_video.h" />
     <ClInclude Include="dependenciec\include\SDL_vulkan.h" />
     <ClInclude Include="dependenciec\SDL2_image-2.8.2\include\SDL_image.h" />
+    <ClInclude Include="hand.hpp" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
