@@ -15,15 +15,15 @@ void Clock_W::renderTexture(SDL_Texture* tex, SDL_Renderer* ren, int x, int y, i
     SDL_RenderCopy(ren, tex, NULL, &dst);
 }
 
-void Clock_W::renderTextureAngl(SDL_Texture* tex, SDL_Renderer* ren, int x, int y, int w, int h, int ang, SDL_Point centr)
-{
-    SDL_Rect dst; 
-    dst.x = x;
-    dst.y = y;
-    dst.w = w;
-    dst.h = h;
-    SDL_RenderCopyEx(ren, tex, NULL, &dst, ang, NULL, SDL_FLIP_NONE);
-}
+//void Clock_W::renderTextureAngl(SDL_Texture* tex, SDL_Renderer* ren, int x, int y, int w, int h, int ang, SDL_Point centr)
+//{
+//    SDL_Rect dst; 
+//    dst.x = x;
+//    dst.y = y;
+//    dst.w = w;
+//    dst.h = h;
+//    SDL_RenderCopyEx(ren, tex, NULL, &dst, ang, NULL, SDL_FLIP_NONE);
+//}
 
 void Clock_W::renderTexture(SDL_Texture* tex, SDL_Renderer* ren, int x, int y)
 {

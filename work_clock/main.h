@@ -9,7 +9,7 @@
 const int SCREEN_WIDTH = 1200;
 const int SCREEN_HEIGHT = 800;
 
-SDL_Window* window = nullptr;
+SDL_Window* window = nullptr;	
 SDL_Renderer* renderer = nullptr;
 
 
