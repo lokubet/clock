@@ -1,3 +1,7 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (sdl_test.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  clock_face.cpp
+﻿  clock_face.cpp
+  hand.cpp
+  help_function.cpp
+  main.cpp
+  Создание кода...
+C:\Users\karapuz\source\repos\work_clock\work_clock\help_function.cpp(53,1): warning C4715: create_some_shit: значение возвращается не при всех путях выполнения
   work_clock.vcxproj -> C:\Users\karapuz\source\repos\work_clock\x64\Debug\work_clock.exe
