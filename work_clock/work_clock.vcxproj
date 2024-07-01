@@ -133,7 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clock_face.cpp" />
     <ClCompile Include="hand.cpp" />
+    <ClCompile Include="help_function.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +156,7 @@
     <None Include="zlib1.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clock_face.hpp" />
     <ClInclude Include="dependenciec\include\begin_code.h" />
     <ClInclude Include="dependenciec\include\close_code.h" />
     <ClInclude Include="dependenciec\include\SDL.h" />
@@ -239,7 +242,8 @@
     <ClInclude Include="dependenciec\include\SDL_vulkan.h" />
     <ClInclude Include="dependenciec\SDL2_image-2.8.2\include\SDL_image.h" />
     <ClInclude Include="hand.hpp" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="help_function.hpp" />
+    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependenciec\lib\x64\SDL2.lib" />

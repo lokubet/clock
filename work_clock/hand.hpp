@@ -1,4 +1,5 @@
-#include "main.h"
+#pragma once
+#include "help_function.hpp"
 
 class Hand_clock{
 	private:
@@ -7,9 +8,10 @@ class Hand_clock{
 		std::string file;
 		SDL_Texture* image_hand;
 	public:
-		Hand_clock();
+		Hand_clock(std::string n);
 		~Hand_clock();
 		void set_dst(int x, int y, int w, int h);
 		SDL_Rect get_dst();
-		void renderTextureAngl(SDL_Renderer* ren, int ang);
+		void render(SDL_Renderer* ren, int ang);
+		SDL_Texture* get_texture();
 };

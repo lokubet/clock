@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\karapuz\\source\\repos\\work_clock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\hand.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\clock_face.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\clock_face.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\help_function.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\help_function.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\hand.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{98EB940A-740B-42D2-871F-57E0582E7694}|work_clock\\work_clock.vcxproj|solutionrelative:work_clock\\main.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +47,108 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clock_face.cpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.cpp",
+              "RelativeDocumentMoniker": "work_clock\\clock_face.cpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.cpp",
+              "RelativeToolTip": "work_clock\\clock_face.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-28T17:57:45.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clock_face.hpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.hpp",
+              "RelativeDocumentMoniker": "work_clock\\clock_face.hpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\clock_face.hpp",
+              "RelativeToolTip": "work_clock\\clock_face.hpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T17:58:00.934Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "hand.cpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.cpp",
+              "RelativeDocumentMoniker": "work_clock\\hand.cpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.cpp",
+              "RelativeToolTip": "work_clock\\hand.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-01T05:26:35.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "hand.hpp",
               "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.hpp",
               "RelativeDocumentMoniker": "work_clock\\hand.hpp",
               "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.hpp",
               "RelativeToolTip": "work_clock\\hand.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-28T17:41:45.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "hand.cpp",
-              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.cpp",
-              "RelativeDocumentMoniker": "work_clock\\hand.cpp",
-              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\hand.cpp",
-              "RelativeToolTip": "work_clock\\hand.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-28T17:41:41.971Z"
+              "DocumentIndex": 5,
+              "Title": "help_function.hpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.hpp",
+              "RelativeDocumentMoniker": "work_clock\\help_function.hpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.hpp",
+              "RelativeToolTip": "work_clock\\help_function.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-30T14:38:00.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.h",
-              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.h",
-              "RelativeDocumentMoniker": "work_clock\\main.h",
-              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.h",
-              "RelativeToolTip": "work_clock\\main.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-26T20:15:21.768Z"
+              "Title": "help_function.cpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.cpp",
+              "RelativeDocumentMoniker": "work_clock\\help_function.cpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\help_function.cpp",
+              "RelativeToolTip": "work_clock\\help_function.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-30T14:26:13.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.cpp",
               "RelativeDocumentMoniker": "work_clock\\main.cpp",
               "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.cpp",
               "RelativeToolTip": "work_clock\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T20:14:25.391Z"
+              "WhenOpened": "2024-06-26T20:14:25.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.hpp",
+              "DocumentMoniker": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.hpp",
+              "RelativeDocumentMoniker": "work_clock\\main.hpp",
+              "ToolTip": "C:\\Users\\karapuz\\source\\repos\\work_clock\\work_clock\\main.hpp",
+              "RelativeToolTip": "work_clock\\main.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-28T17:58:31.066Z",
+              "EditorCaption": ""
             }
           ]
         }
