@@ -139,6 +139,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cmake\FindSDL2_image.cmake" />
     <None Include="dependenciec\SDL2_image-2.8.2\cmake\sdl2_image-config-version.cmake" />
     <None Include="dependenciec\SDL2_image-2.8.2\cmake\sdl2_image-config.cmake" />
     <None Include="dependenciec\SDL2_image-2.8.2\lib\x64\libjpeg-9.dll" />
@@ -146,14 +147,8 @@
     <None Include="dependenciec\SDL2_image-2.8.2\lib\x64\libtiff-5.dll" />
     <None Include="dependenciec\SDL2_image-2.8.2\lib\x64\libwebp-7.dll" />
     <None Include="dependenciec\SDL2_image-2.8.2\lib\x64\zlib1.dll" />
-    <None Include="libjpeg-9.dll" />
-    <None Include="libpng16-16.dll" />
-    <None Include="libtiff-5.dll" />
-    <None Include="libwebp-7.dll" />
-    <None Include="SDL2_image.dll" />
+    <None Include="dependenciec\sdl2-config.cmake" />
     <None Include="dependenciec\SDL2_image-2.8.2\lib\x86\SDL2_image.dll" />
-    <None Include="SDL2.dll" />
-    <None Include="zlib1.dll" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clock_face.hpp" />
@@ -243,7 +238,6 @@
     <ClInclude Include="dependenciec\SDL2_image-2.8.2\include\SDL_image.h" />
     <ClInclude Include="hand.hpp" />
     <ClInclude Include="help_function.hpp" />
-    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependenciec\lib\x64\SDL2.lib" />
@@ -252,6 +246,7 @@
     <Library Include="dependenciec\SDL2_image-2.8.2\lib\x86\SDL2_image.lib" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="CMakeLists.txt" />
     <Text Include="dependenciec\SDL2_image-2.8.2\CHANGES.txt" />
     <Text Include="dependenciec\SDL2_image-2.8.2\lib\x64\LICENSE.jpeg.txt" />
     <Text Include="dependenciec\SDL2_image-2.8.2\lib\x64\LICENSE.png.txt" />

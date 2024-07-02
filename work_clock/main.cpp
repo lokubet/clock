@@ -1,4 +1,3 @@
-#include "main.hpp"
 #include "help_function.hpp"
 #include "clock_face.hpp"
 

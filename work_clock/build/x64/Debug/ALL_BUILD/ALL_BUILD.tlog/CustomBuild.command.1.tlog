@@ -1,0 +1,10 @@
+^C:\USERS\KARAPUZ\SOURCE\REPOS\WORK_CLOCK\WORK_CLOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/karapuz/source/repos/work_clock/work_clock -BC:/Users/karapuz/source/repos/work_clock/work_clock/build --check-stamp-file C:/Users/karapuz/source/repos/work_clock/work_clock/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
