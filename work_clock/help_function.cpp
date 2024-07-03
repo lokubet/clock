@@ -1,4 +1,3 @@
-#pragma once
 #include "help_function.hpp"
 
 namespace global {
@@ -50,6 +49,7 @@ int create_some_shit() {
         std::cout << SDL_GetError() << std::endl;
         return 3;
     }
+    return 0;
 }
 
 int getHour()
@@ -57,7 +57,7 @@ int getHour()
     struct tm newtime;
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
-    localtime_s(&newtime, &in_time_t);
+    localtime_r(&in_time_t, &newtime);
     int mounth = newtime.tm_hour;
     return mounth;
 }
@@ -67,7 +67,7 @@ int getMinute()
     struct tm newtime;
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
-    localtime_s(&newtime, &in_time_t);
+    localtime_r(&in_time_t, &newtime);
     int hour = newtime.tm_min;
     return hour;
 }
@@ -77,7 +77,7 @@ int getSecond()
     struct tm newtime;
     auto now = std::chrono::system_clock::now();
     auto in_time_t = std::chrono::system_clock::to_time_t(now);
-    localtime_s(&newtime, &in_time_t);
+    localtime_r(&in_time_t, &newtime);
     int second = newtime.tm_sec;
     return second;
 }

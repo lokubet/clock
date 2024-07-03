@@ -8,13 +8,13 @@ class clock_face {
 	private:
 		SDL_Color textColor = { 255,0,0 };
 		SDL_Rect dst;
-		std::string	file = "images/3_2.png";
-		std::string background = "images/background.png";
-		std::string files_text[6] = {"images/New_York_City.png" ,"images/Paris.png" ,"images/London.png" ,"images/Moscow.png",
-		"images/Tokyo.png", "images/Sydney.png" };
-		Hand_clock hand_second{ "images/4_1.png" };
-		Hand_clock hand_minute{"images/1_1.png"};
-		Hand_clock hand_hour{"images/2_4.png"};
+		std::string	file = "../images/3_2.png";
+		std::string background = "../images/background.png";
+		std::string files_text[6] = {"../images/New_York_City.png" ,"../images/Paris.png" ,"../images/London.png" ,"../images/Moscow.png",
+		"../images/Tokyo.png", "../images/Sydney.png" };
+		Hand_clock hand_second{ "../images/4_1.png" };
+		Hand_clock hand_minute{"../images/1_1.png"};
+		Hand_clock hand_hour{"../images/2_4.png"};
 		SDL_Texture* image_clock;
 		SDL_Texture* image_text;
 		int timezone;

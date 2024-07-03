@@ -1,2 +1,0 @@
-C:/Users/karapuz/source/repos/work_clock/work_clock/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/karapuz/source/repos/work_clock/work_clock/build/CMakeFiles/ZERO_CHECK.dir

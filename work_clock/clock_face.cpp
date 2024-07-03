@@ -8,6 +8,9 @@ clock_face::clock_face(int x, int y, int w, int h) {
 	hand_minute.set_dst(x, y, w, h);
 	hand_hour.set_dst(x, y, w, h);
 	image_clock = loadTexture(file, global::renderer);
+	if (!image_clock) {
+		std::cout << SDL_GetError() << std::endl;
+	}
 }
 
 clock_face::clock_face() {
@@ -18,6 +21,9 @@ clock_face::clock_face() {
 	hand_minute.set_dst(0, 0, 0, 0);
 	hand_hour.set_dst(0, 0, 0, 0);
 	image_clock = loadTexture(file, global::renderer);
+	if (!image_clock) {
+		std::cout << SDL_GetError() << std::endl;
+	}
 }
 
 clock_face::~clock_face() {
@@ -46,7 +52,7 @@ void clock_face::render_clock(SDL_Renderer* ren, int ang_second, int ang_minute,
 	hand_minute.render(ren, ang_minute);
 	hand_hour.render(ren, ang_hour);
 	render_text(ren, files_text[i], i);
-}  
+}
 
 void clock_face::render_text(SDL_Renderer* ren, std::string fileN, int n) {
 	SDL_Rect place;
