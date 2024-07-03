@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     bool quit = false;
     int mas_time[6] = { -7, -1, -2, 0, 6, 7};
 
-    create_some_shit();
+    initial();
 
     SDL_Texture* background = loadTexture("../images/background.png", global::renderer);
 

@@ -24,7 +24,7 @@ SDL_Texture* loadTexture(const std::string& file, SDL_Renderer* ren)
     return texture;
 }
 
-int create_some_shit() {
+int initial() {
     if (SDL_Init(SDL_INIT_EVERYTHING) == -1) {
         std::cout << SDL_GetError() << std::endl;
         return 1;
@@ -37,7 +37,7 @@ int create_some_shit() {
         return 1;
     }
 
-    global::window = SDL_CreateWindow("FUCKING PISS OF SHIT", SDL_WINDOWPOS_CENTERED,
+    global::window = SDL_CreateWindow("A litile bit of clocks", SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
     if (global::window == nullptr) {
         std::cout << SDL_GetError() << std::endl;

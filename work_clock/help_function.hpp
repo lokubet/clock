@@ -15,7 +15,7 @@ namespace global {
 	extern SDL_Renderer* renderer;
 }
 
-int create_some_shit();
+int initial();
 void logSDLError(std::ostream& os, const std::string& msg);
 void ApplySurface(int x, int y, int ang, SDL_Texture* tex, SDL_Renderer* rend);
 SDL_Texture* LoadImage(std::string file);
