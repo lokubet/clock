@@ -10,8 +10,8 @@ class clock_face {
 		SDL_Rect dst;
 		std::string	file = "../images/3_2.png";
 		std::string background = "../images/background.png";
-		std::string files_text[6] = {"../images/New_York_City.png" ,"../images/Paris.png" ,"../images/London.png" ,"../images/Moscow.png",
-		"../images/Tokyo.png", "../images/Sydney.png" };
+		std::string files_text[6] = {"../images/Moscow.png", "../images/Tokyo.png", "../images/Sydney.png",
+		 "../images/New_York_City.png" ,"../images/Paris.png" ,"../images/London.png"};
 		Hand_clock hand_second{ "../images/4_1.png" };
 		Hand_clock hand_minute{"../images/1_1.png"};
 		Hand_clock hand_hour{"../images/2_4.png"};
