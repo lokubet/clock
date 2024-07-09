@@ -9,6 +9,8 @@ const int SCREEN_HEIGHT = 800;
 #include <ctime>
 #include <sstream> 
 #include <iomanip>
+#include <vector>
+
 
 namespace global {
 	extern SDL_Window* window;

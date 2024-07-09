@@ -38,16 +38,19 @@ int main(int argc, char** argv) {
         }
         n++;
     }
+
+    
     while (!quit)
     {
         SDL_PollEvent(&e);
-        if (e.type == SDL_QUIT || e.type == SDL_MOUSEBUTTONDOWN || e.type == SDL_KEYDOWN){
+        if (e.type == SDL_QUIT){
             quit = true;
         }
 
         SDL_RenderClear(global::renderer);
 
         renderTexture(background, global::renderer, size_screen, 0);
+        
         for (int i = 0; i < 6; i++) {
             mas[i].render_clock(global::renderer, getSecond()*6, getMinute() * 6, (getHour()+mas_time[i]) * 30, i);
         }
@@ -55,13 +58,10 @@ int main(int argc, char** argv) {
 
     }
 
-    if (!background){
-        SDL_DestroyRenderer(global::renderer);
-        SDL_DestroyWindow(global::window);
-        IMG_Quit();
-        SDL_Quit();
-        return 1;
-    };
+    SDL_DestroyRenderer(global::renderer);
+    SDL_DestroyWindow(global::window);
+    IMG_Quit();
+    SDL_Quit();
 
     return 0;
 }

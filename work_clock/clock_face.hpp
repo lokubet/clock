@@ -16,7 +16,7 @@ class clock_face {
 		Hand_clock hand_minute{"../images/1_1.png"};
 		Hand_clock hand_hour{"../images/2_4.png"};
 		SDL_Texture* image_clock;
-		SDL_Texture* image_text;
+		std::vector<SDL_Texture*> image_text;
 		int timezone;
 	public:
 		clock_face();
@@ -24,6 +24,6 @@ class clock_face {
 		~clock_face();
 		void set_dst(int x, int y, int w, int h);
 		SDL_Rect get_dst();
-		void render_text(SDL_Renderer* ren, std::string fileN, int n);
+		void render_text(SDL_Renderer* ren, int n);
 		void render_clock(SDL_Renderer* ren, int ang_second, int ang_minute, int ang_hour, int i);
 };

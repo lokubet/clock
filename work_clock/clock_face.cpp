@@ -8,6 +8,9 @@ clock_face::clock_face(int x, int y, int w, int h) {
 	hand_minute.set_dst(x, y, w, h);
 	hand_hour.set_dst(x, y, w, h);
 	image_clock = loadTexture(file, global::renderer);
+	for (int i = 0; i < 6; i++) {	
+		image_text.push_back(loadTexture(files_text[i], global::renderer));
+	}
 	if (!image_clock) {
 		std::cout << SDL_GetError() << std::endl;
 	}
@@ -21,14 +24,25 @@ clock_face::clock_face() {
 	hand_minute.set_dst(0, 0, 0, 0);
 	hand_hour.set_dst(0, 0, 0, 0);
 	image_clock = loadTexture(file, global::renderer);
+	for (int i = 0; i < 6; i++) {	
+		image_text.push_back(loadTexture(files_text[i], global::renderer));
+		if (!image_text[i]) {
+			std::cout << SDL_GetError() << std::endl;
+		}
+	}
 	if (!image_clock) {
 		std::cout << SDL_GetError() << std::endl;
 	}
+
+	
+	
 }
 
 clock_face::~clock_face() {
 	SDL_DestroyTexture(image_clock);
-	SDL_DestroyTexture(image_text);
+	for (int i = 0; i < 6; i++) {
+		SDL_DestroyTexture(image_text[i]);
+	}
 }
 
 void clock_face::set_dst(int x, int y, int w, int h) {
@@ -51,10 +65,10 @@ void clock_face::render_clock(SDL_Renderer* ren, int ang_second, int ang_minute,
 	hand_second.render(ren, ang_second);
 	hand_minute.render(ren, ang_minute);
 	hand_hour.render(ren, ang_hour);
-	render_text(ren, files_text[i], i);
+	render_text(ren, i);
 }
 
-void clock_face::render_text(SDL_Renderer* ren, std::string fileN, int n) {
+void clock_face::render_text(SDL_Renderer* ren, int n) {
 	SDL_Rect place;
 	place.w = 150;
 	place.h = 100;
@@ -66,9 +80,7 @@ void clock_face::render_text(SDL_Renderer* ren, std::string fileN, int n) {
 		place.x = SCREEN_WIDTH/3 * n + 80;
 		place.y = SCREEN_HEIGHT / 3*2 - 80;
 	}
-	image_text = loadTexture(fileN, ren);
-	if (!image_text) {
-		std::cout << SDL_GetError() << std::endl;
-	}
-	renderTexture(image_text, ren, place, 0);
+	
+	
+	renderTexture(image_text[n], ren, place, 0);
 }
