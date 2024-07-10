@@ -5,14 +5,36 @@ namespace global {
     SDL_Renderer* renderer = nullptr;
 }
 
+/**
+ * @brief Вывод ошибок.
+ * @param ostream поток вывода.
+ * @param string Причина ошибки
+ */
+
 void logSDLError(std::ostream& os, const std::string& msg) {
     os << msg << " error: " << SDL_GetError() << std::endl;
 }
 
+/**
+ * @brief Рендер полученной текстуры с определёнными свойствами.
+ * @param SDL_Texture текстура которую надо отобразить.
+ * @param SDL_Renderer рендер.
+ * @param SDL_Rect структура координат.
+ * @param int угол поворота текстуры.
+ */
 
 void renderTexture(SDL_Texture* tex, SDL_Renderer* ren, SDL_Rect dst, int ang) {
     SDL_RenderCopyEx(ren, tex, NULL, &dst, ang, NULL, SDL_FLIP_NONE);
 }
+
+
+/**
+ * @brief Загрузка текстуры.
+ * @param string Путь до файла.
+ * @param SDL_Renderer Рендер.
+ * @return SDL_Texture Возвращает загруженную текстуру.
+ */
+
 
 SDL_Texture* loadTexture(const std::string& file, SDL_Renderer* ren)
 {
@@ -23,6 +45,12 @@ SDL_Texture* loadTexture(const std::string& file, SDL_Renderer* ren)
     }
     return texture;
 }
+
+/**
+ * @brief Инициализирует библиотеки и создаёт окно и рендер.
+ * @return 0 если всё прошло без ошибок.
+ */
+
 
 int initial() {
     if (SDL_Init(SDL_INIT_EVERYTHING) == -1) {
@@ -52,6 +80,11 @@ int initial() {
     return 0;
 }
 
+/**
+ * @brief возвращает системное время (час) 
+ * @return int системное время (час)
+ */
+
 int getHour()
 {
     struct tm newtime;
@@ -62,6 +95,11 @@ int getHour()
     return mounth;
 }
 
+/**
+ * @brief возвращает системное время (минута) 
+ * @return int системное время (минута)
+ */
+
 int getMinute()
 {
     struct tm newtime;
@@ -71,6 +109,11 @@ int getMinute()
     int hour = newtime.tm_min;
     return hour;
 }
+
+/**
+ * @brief возвращает системное время (секунда) 
+ * @return int системное время (секунда)
+ */
 
 int getSecond()
 {

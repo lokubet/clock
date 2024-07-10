@@ -61,7 +61,7 @@ clock_face::~clock_face() {
 }
 
 /**
- * @brief Ставит полученные переменные в класс координат,
+ * @brief Ставит полученные переменные в структуру координат,
  *  отвечающих за расположение циферблата. 
  * @param numbers координаты для циферблата. 
  */
@@ -87,7 +87,7 @@ SDL_Rect clock_face::get_dst() {
  * @brief Задаёт координаты всех стрелок,и рендерит циферблат, стрелки и текст.
  * @param SDL_Renderer Рендер.
  * @param Numbers ang_second, ang_minute, ang_hour углы для стрелок.
- * @return true if ip correct false otherwise
+ * @param int номер часов которые будут рендериться
  */
 
 void clock_face::render_clock(SDL_Renderer* ren, int ang_second, int ang_minute, int ang_hour, int i)
@@ -101,6 +101,13 @@ void clock_face::render_clock(SDL_Renderer* ren, int ang_second, int ang_minute,
 	hand_hour.render(ren, ang_hour);
 	render_text(ren, i);
 }
+
+
+/**
+ * @brief Задаёт координаты всех стрелок,и рендерит циферблат, стрелки и текст.
+ * @param SDL_Renderer Рендер.
+ * @param int индекс строчки с путём до файла изображения
+ */
 
 void clock_face::render_text(SDL_Renderer* ren, int n) {
 	SDL_Rect place;

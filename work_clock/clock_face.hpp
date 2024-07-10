@@ -19,11 +19,57 @@ class clock_face {
 		std::vector<SDL_Texture*> image_text;
 		int timezone;
 	public:
+		
+		/**
+		 * @brief конструктор класса заполняющий координаты расположения 
+		 * циферблата и стрелок. Так же загружает текстуры.
+		 * @param numbers координаты для часов и стрелок. 
+		 */
+
 		clock_face();
+		
+		/**
+		 * @brief конструктор класса заполняющий координаты расположения 
+		 * часов и стрелок нулями. Так же загружает текстуры. 
+		 */
+		
 		clock_face(int x, int y, int w, int h);
+
+		/**
+		 * @brief деконструктор класса освобождающий память от текстур. 
+		 */
+		
 		~clock_face();
+
+		/**
+		 * @brief Ставит полученные переменные в структуру координат,
+		 *  отвечающих за расположение циферблата. 
+		 * @param numbers координаты для циферблата. 
+		 */
+
 		void set_dst(int x, int y, int w, int h);
+		
+		/**
+		 * @brief Возвращает координаты циферблата
+		 * @return Sdl_Rect координаты циферблата
+		 */
+
 		SDL_Rect get_dst();
+
+		/**
+		 * @brief Задаёт координаты всех стрелок,и рендерит циферблат, стрелки и текст.
+		 * @param SDL_Renderer Рендер.
+		 * @param Numbers ang_second, ang_minute, ang_hour углы для стрелок.
+		 * @param int номер часов которые будут рендериться
+		 */
+
 		void render_text(SDL_Renderer* ren, int n);
+
+		/**
+		 * @brief Задаёт координаты всех стрелок,и рендерит циферблат, стрелки и текст.
+		 * @param SDL_Renderer Рендер.
+		 * @param int индекс строчки с путём до файла изображения
+		 */
+
 		void render_clock(SDL_Renderer* ren, int ang_second, int ang_minute, int ang_hour, int i);
-};
+	};
