@@ -32,8 +32,7 @@ int initial();
  */
 
 void logSDLError(std::ostream& os, const std::string& msg);
-void ApplySurface(int x, int y, int ang, SDL_Texture* tex, SDL_Renderer* rend);
-SDL_Texture* LoadImage(std::string file);
+
 
 /**
  * @brief Загрузка текстуры.
@@ -53,7 +52,6 @@ SDL_Texture* loadTexture(const std::string& file, SDL_Renderer* ren);
  */
 
 void renderTexture(SDL_Texture* tex, SDL_Renderer* ren, SDL_Rect dst, int ang);
-inline std::tm localtime_xp(std::time_t timer);
 
 /**
  * @brief возвращает системное время (час) 
